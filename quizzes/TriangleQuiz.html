@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you know your Triangles?</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/0ae1aebe6f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="./TriangleQuiz.html">Triangle Quiz</a>
+        <a href="./AreaOfTriangle.html">Area of Triangle</a>
+        <a href="./FindHypotenuse.html">Find Hypotenuse</a>
+        <a href="./CheckIsTriangle.html">Is it Triangle?</a>
+    </nav>
+    <div class="quiz">
+        <div class="title">
+            Triangle quiz time!
+        </div>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>1. What is an equilateral triangle?</p>
+                <label><input type="radio" name="question-1" value="All its sides are equal" id="option-1"/>All its sides are equal</label>
+                <label><input type="radio" name="question-1" value="All of its angles add up to 360" id="option-2"/>All of its angles add up to 360</label>
+                <label><input type="radio" name="question-1" value="One side is longer than others" id="option-3"/>One side is longer than others</label>
+            </div>
+            <div class="question-container">
+                <p>2. What is a hypotenuse?</p>
+                <label><input type="radio" name="question-2" value="Total length of all sides of triangle" id="option-1"/>Total length of all sides of triangle</label>
+                <label><input type="radio" name="question-2" value="The longest side of triangle" id="option-2"/>The longest side of triangle</label>
+                <label><input type="radio" name="question-2" value="Two equal sides of a triangle" id="option-3"/>Two equal sides of a triangle</label>
+            </div>
+            <div class="question-container">
+                <p>
+                    3. A triangle with one angle greater than 90 degrees?</p>
+                <label><input type="radio" name="question-3" value="Obtuse triangle" id="option-1"/>Obtuse triangle</label>
+                <label><input type="radio" name="question-3" value="Acute triangle" id="option-2"/>Acute triangle</label>
+                <label><input type="radio" name="question-3" value="Isosceles triangle" id="option-3"/>Isosceles triangle</label>
+            </div>
+            <div class="question-container">
+                <p>4. The sum of sides of triangle is called?</p>
+                <label><input type="radio" name="question-4" value="Area" id="option-1"/>Area</label>
+                <label><input type="radio" name="question-4" value="Volume" id="option-2"/>Volume</label>
+                <label><input type="radio" name="question-4" value="Perimeter" id="option-3"/>Perimeter</label>
+            </div>
+            <div class="question-container">
+                <p>5. Which ancient Greek philosopher studied triangles?</p>
+                <label><input type="radio" name="question-5" value="Euclid" id="option-1"/>Euclid</label>
+                <label><input type="radio" name="question-5" value="Pythagoras" id="option-2"/>Pythagoras</label>
+                <label><input type="radio" name="question-5" value="Archimedes" id="option-3"/>Archimedes</label>
+            </div>
+            <div class="message">&nbsp;</div>
+            <button type="submit" id="retry-btn">Retry</button>
+        </form>
+        <button id="submit-btn">Submit</button>
+    </div>
+    <div class="bottom-container">
+        <div class="icons">
+            <a class="footer-link" target="_blank" href="https://www.linkedin.com/in/puneet-patel-96b607a0/"><i
+                class="fab fa-linkedin fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://github.com/PuneetP16"><i
+                class="fab fa-github fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://puneetpatel.netlify.app/"><i 
+            class="fas fa-user fa-2x"></i></a>
+            <a class="footer-link" target="_blank" href="https://twitter.com/PatelPuneet16"><i
+                class="fab fa-twitter-square fa-2x"></i></a>
+          </div>
+          <p class="copyright">© 2021 Puneet Patel</p>
+    </div>
+    <script src="./TriangleQuiz.js"></script>
+</body>
+</html>
