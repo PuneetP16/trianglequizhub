@@ -16,7 +16,7 @@ function verifyAngles(){
     if(sum === 180){
         showMessage("Yes! These angles will form a triangle!")
     } else {
-        showMessage("No! Such angles cannot from a triangle!")
+        showMessage("No! Such angles cannot form a triangle!")
     }
 }
 
